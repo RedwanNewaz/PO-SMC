@@ -1,0 +1,14 @@
+# 	 seed 1993
+# 	 elapsed time 24.64926505088806
+# 	 reward -15.0
+# 	 discounted reward -13.014537187499998
+# 	 valid policy True
+,X_2,Y_2
+0,1,3
+1,3,0
+2,3,1
+3,3,0
+4,2,0
+5,1,0
+6,0,0
+7,0,1

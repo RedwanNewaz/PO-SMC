@@ -1,0 +1,24 @@
+env: RobotModel
+solver: POMCP
+seed: 1993
+use_smc: true
+log_name: sat_policy_XX
+discount: 0.95
+n_epochs: 30
+max_steps: 60
+save: true
+test: 10
+epsilon_start: 0.5
+epsilon_minimum: 0.1
+epsilon_decay: 0.95
+epsilon_decay_step: 20
+n_sims: 90
+timeout: 4800
+ucb_coefficient: 5
+n_start_states: 500
+min_particle_count: 500
+max_particle_count: 1000
+max_depth: 30
+action_selection_timeout: 60
+
+

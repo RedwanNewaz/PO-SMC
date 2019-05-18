@@ -1,0 +1,16 @@
+{
+"ROBOT":
+{
+  "map_file": "ral-3-12-3.txt",
+  "half_efficiency_distance": 20.0,
+  "num_actions":4,
+  "threshold": 0.8
+},
+  "REWARD":
+  {
+  "TERMINAL_REWARD": 1000,
+  "PENALTY_COST": -1000,
+  "CAUTION_COST": -10
+  }
+}
+
