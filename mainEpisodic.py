@@ -140,7 +140,7 @@ if __name__ == '__main__':
     solver = POMCPV
     env = RobotModel(args)
     agent = AgentSMC(env, solver)
-    EXP_LOG = "experiments/LargeMap/"
+    EXP_LOG = "/home/experiments/LargeMap/"
     if(not os.path.exists(EXP_LOG)):
         os.makedirs(EXP_LOG)
 

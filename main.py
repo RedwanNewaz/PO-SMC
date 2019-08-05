@@ -15,6 +15,7 @@ import os
 import pandas as pd
 from collections import defaultdict
 from tqdm import tqdm
+import os
 
 
 
@@ -135,7 +136,8 @@ def dicounted_return(self):
 if __name__ == '__main__':
 
     yaml = YAML()
-    with open('exp_param.yml','r') as param:
+    cwd = os.getcwd()
+    with open('/home/exp_param.yml','r') as param:
         args=yaml.load(param)
 
 
@@ -145,7 +147,7 @@ if __name__ == '__main__':
     solver = POMCPV
     env = RobotModel(args)
     agent = AgentSMC(env, solver)
-    EXP_LOG = "experiments/yue_ral/ral-4-4-3/"
+    EXP_LOG = "/home/experiments/yue_ral/ral-4-4-3/"
     if(not os.path.exists(EXP_LOG)):
         os.makedirs(EXP_LOG)
 

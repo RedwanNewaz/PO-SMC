@@ -1,0 +1,8 @@
+numpy >= 1.11
+matplotlib >= 1.4.3
+scipy >= 0.15.1
+future >= 0.16
+pandas >= 0.24.0
+z3-solver >= 4.0
+ruamel.yaml >= 0.15.0
+tqdm

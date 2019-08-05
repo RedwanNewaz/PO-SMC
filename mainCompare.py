@@ -125,11 +125,11 @@ class myProcess(object):
 
 if __name__ == '__main__':
     Grid = namedtuple("Grid", "name obstacle size reward")
-    Grid1 = Grid(name='ral-3-12-1.txt', obstacle=1, size=[4, 13], reward=-6)
-    Grid2 = Grid(name='ral-3-12-2.txt', obstacle=2, size=[4, 13], reward=-14)
-    Grid3 = Grid(name='ral-3-12-3.txt', obstacle=3, size=[4, 13], reward=-31)
-    Grid6 = Grid(name='map-14-4-6.txt', obstacle=6, size=[4, 14], reward=-47)
-    Grid7 = Grid(name='map-14-4-7.txt', obstacle=7, size=[4, 14], reward=-52)
+    Grid1 = Grid(name='/home/ral-3-12-1.txt', obstacle=1, size=[4, 13], reward=-6)
+    Grid2 = Grid(name='/home/ral-3-12-2.txt', obstacle=2, size=[4, 13], reward=-14)
+    Grid3 = Grid(name='/home/ral-3-12-3.txt', obstacle=3, size=[4, 13], reward=-31)
+    Grid6 = Grid(name='/home/map-14-4-6.txt', obstacle=6, size=[4, 14], reward=-47)
+    Grid7 = Grid(name='/home/map-14-4-7.txt', obstacle=7, size=[4, 14], reward=-52)
 
     GRIDS = {1: Grid1, 2: Grid2, 3: Grid3, 6: Grid6, 7: Grid7}
     parser = argparse.ArgumentParser(description='Num of obstacles')
